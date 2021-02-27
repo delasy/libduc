@@ -1,0 +1,10 @@
+*
+!examples/
+!include/
+!scripts/
+!src/
+!tests/
+!CMakeLists.txt
+!LICENSE
+!libduc.pc.in
+!libduc-static.pc.in

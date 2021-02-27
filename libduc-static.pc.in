@@ -1,0 +1,11 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+includedir=@includedir@
+libdir=@libdir@
+
+Name: libduc-static
+Description: Delasy Utilities Collection
+Version: @PROJECT_VERSION@
+
+Cflags: -I${includedir}
+Libs: -L${libdir} -lduc_a
